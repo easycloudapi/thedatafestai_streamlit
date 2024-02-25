@@ -14,11 +14,12 @@ st.divider()
 st.markdown(
     """
     ## Click below links -
-    - [Convert File Types](Convert_File_Type)
+    - [File Operatios](File_Operations)
     
     """
 )
 
 st.divider()
 st.write("A Small Initiative By: Indranil Pal")
-st.write("For any issues/concerns, please raise ticket here [click here]('https://github.com/easycloudapi/thedatafestai_streamlit/issues')")
+issue_url = 'https://github.com/easycloudapi/thedatafestai_streamlit/issues'
+st.write("For any issues/concerns, please raise ticket here [click here](%s)" % issue_url)
