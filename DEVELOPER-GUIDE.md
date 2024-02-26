@@ -4,7 +4,7 @@ ID  | Topic | URLs
 --- | ---   | ---
 1   | Streamlit             | https://docs.streamlit.io/
 2   | Streamlit - Dashboard | https://blog.streamlit.io/crafting-a-dashboard-app-in-python-using-streamlit/
-2   | Streamlit - Emoji     | https://share.streamlit.io/streamlit/emoji-shortcodes
+2   | Streamlit - Emoji     | 1. https://share.streamlit.io/streamlit/emoji-shortcodes</br>2. https://emojidb.org/streamlit-emojis
 3   | langchain - demo      | https://lablab.ai/t/anthropics-claude-and-langchain-tutorial-bulding-personal-assistant-app
 
 
