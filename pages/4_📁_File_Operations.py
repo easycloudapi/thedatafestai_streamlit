@@ -12,7 +12,7 @@ from utils.file_operations import (
 
 # load_dotenv()
 
-st.header("File Operations - ⚡")
+st.title("File Operations - ⚡")
 st.write("Only support xlsx, csv and json file")
 st.divider()
 

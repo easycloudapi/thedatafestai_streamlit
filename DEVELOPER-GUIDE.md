@@ -28,7 +28,12 @@ streamlit run Home.py
 streamlit run Home.py --server.port 8080
 ```
 
-## Step 3 - GitHub Setup For Pull/Push The Code:
+# Build & Run The App with Dockerfile:
+```shell
+
+```
+
+# GitHub Setup For Pull/Push The Code:
 ```shell
 git config --global user.email "emailaddress@gmail.com"
 git config --global user.name "username"
