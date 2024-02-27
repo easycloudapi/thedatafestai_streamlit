@@ -1,4 +1,8 @@
 import streamlit as st
+import time
 
-st.header("Hello World! 👋")
-# :tada: :partying_face: :star2: :smile_cat:
+with st.empty():
+    for seconds in range(60):
+        st.write(f"⏳ {seconds} seconds have passed")
+        time.sleep(1)
+    st.write("✔️ 1 minute over!")

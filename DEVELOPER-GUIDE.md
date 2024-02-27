@@ -4,8 +4,9 @@ ID  | Topic | URLs
 --- | ---   | ---
 1   | Streamlit             | https://docs.streamlit.io/
 2   | Streamlit - Dashboard | https://blog.streamlit.io/crafting-a-dashboard-app-in-python-using-streamlit/
-2   | Streamlit - Emoji     | 1. https://share.streamlit.io/streamlit/emoji-shortcodes</br>2. https://emojidb.org/streamlit-emojis
-3   | langchain - demo      | https://lablab.ai/t/anthropics-claude-and-langchain-tutorial-bulding-personal-assistant-app
+3   | Streamlit - Emoji     | 1. https://share.streamlit.io/streamlit/emoji-shortcodes</br>2. https://emojidb.org/streamlit-emojis
+4   | Snowflake Python API  | https://docs.snowflake.com/en/developer-guide/snowflake-python-api/snowflake-python-overview
+5   | langchain - demo      | https://lablab.ai/t/anthropics-claude-and-langchain-tutorial-bulding-personal-assistant-app
 
 
 # Build & Run The App Locally:
@@ -23,6 +24,8 @@ pip install -r requirements.txt
 ## Step 2 - Run The Streamlit App:
 ```shell
 streamlit run Home.py
+# or
+streamlit run Home.py --server.port 8080
 ```
 
 ## Step 3 - GitHub Setup For Pull/Push The Code:
